@@ -1,0 +1,39 @@
+.block_buttonup {
+	position: fixed !important;
+	z-index: 200;
+	overflow :visible !important;
+	cursor: pointer !important;
+	border-radius: 5px;
+	opacity: 0.8;
+	transition: 0.3s;
+	z-index: 701;
+}
+
+.block_buttonup:hover {
+	opacity: 1;
+}
+
+.block_buttonup .e_block_panel {
+	top: 0px !important;
+	left: calc(50% - 50px);
+	width: 100px;
+	border-radius: 7px;
+}
+
+.block_buttonup .e_block_panel:after, .block_buttonup .e_block_panel:before {
+	content: none;
+}
+
+.block_blockup_svg {
+	fill: #ffffff;
+}
+
+.block_buttonup_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+	height: 100%;
+    overflow: hidden;
+}

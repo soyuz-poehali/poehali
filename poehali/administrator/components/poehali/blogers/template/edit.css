@@ -1,0 +1,59 @@
+.tc_l_text {
+    display: flex;
+    margin-right: 10px;
+    padding-top: 5px;
+    text-align: right;
+    justify-content: flex-end;
+    flex-basis: 200px;
+    min-height: 50px;
+}
+
+.tc_r .w_400 {
+	margin-left:10px;
+}
+
+.poehali_bloger_photo {
+	width: 250px;
+	height: 250px;
+}
+
+/* --- BOOKMARK --- */
+.dan_bookmark_body {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.dan_bookmark_body input, .dan_bookmark_body select {
+  background-color: #f7f7f7 !important;
+}
+
+
+/* --- DRAG N DROP --- */
+#drag_trg {
+	position: relative;
+}
+
+.drag_drop_ico {
+	margin: 5px;
+}
+
+.accordion_container {
+	margin-top: 10px;
+}
+
+.dan_accordion_container {
+	flex-grow: 1;
+}
+
+.dan_accordion_head_title {
+	padding-left: 15px;
+}
+
+.dan_accordion_content {
+	padding: 15px;
+}
+
+
+.com_poehali_blogers_themes {
+	height: 200px !important;
+}

@@ -1,0 +1,39 @@
+.block_scrolling_vertical_container {
+	position: relative;
+	justify-content: center;
+	overflow: visible;
+}
+
+.block_scrolling_vertical_text_wrap, 
+.block_scrolling_vertical_image_wrap, 
+.block_scrolling_vertical_text_wrap_100 {
+    flex-basis: 320px;
+    flex-grow: 1;
+}
+
+.block_scrolling_vertical_image_wrap {
+    border-radius: 30px;
+    box-shadow: 0px 3px 20px rgba(0,0,0,0.3);
+	overflow: hidden;
+}
+
+.block_scrolling_vertical_text_wrap {
+	padding-right: 20px;
+}
+
+.block_scrolling_vertical_text_wrap_100 {
+	padding: 20px;
+}
+
+.block_scrolling_vertical_image {
+	pointer-events: none;
+	width: 100%;
+}
+
+
+@media screen and (max-width: 640px) {
+	.block_scrolling_vertical_text_wrap {
+		padding: 20px;
+		order: 2;
+	}
+}

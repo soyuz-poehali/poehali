@@ -1,0 +1,142 @@
+.help_h1, #dan_modal_content .help_h1 {
+	font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0px;
+	margin: 0px 0px 20px 0px;
+}
+
+ #dan_modal_content .help_h1 {
+	text-align: center;
+ } 
+
+.help_h2, #dan_modal_content .help_h2 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    line-height: 1;
+    color: #222;
+	text-align: left;
+}
+
+.help_h3, #dan_modal_content .help_h3{
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+	line-height: 0.8;
+	text-align: left;
+}
+.help_h4, #dan_modal_content .help_h4 {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.15px;
+	line-height: 1;
+	text-align: left;
+}
+
+ #dan_modal_content .help_flex_50 {
+    flex-basis: 100%;
+}
+
+.help_titles_group {
+	margin-block-end: 2em;
+}
+
+.help_titles_group > div {
+    margin-left:20px;
+    padding:20px;
+    border-left: 4px solid #355fde;    
+    color: #777;
+    background: #fff;
+    box-shadow: 0px 0px 40px 0px rgb(224 227 235);    
+}
+
+.help_titles_group details {
+	font-size: 13px;
+	cursor:pointer;
+}
+
+.help_titles_group details[open] summary {
+	padding-bottom: 10px;
+}
+
+.help_titles_group ol {
+	padding-left: 20px;
+}
+
+
+.help_titles_group h3::before {
+    content:'';
+    width: 7px;
+    height: 7px;
+    background: #355fde;
+    display:inline-block;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+.help_titles_wrap a:link, .help_titles_wrap a:visited, .help_titles_wrap a:hover,
+.help_flex_right a:link, .help_flex_right a:visited, .help_flex_right a:hover {
+    color: #222;
+	text-decoration: none;
+}
+
+.help_titles_wrap a:hover {
+	text-decoration: underline;
+}
+
+.help_titles_wrap {
+	max-width: 800px;
+}
+
+.help_flex_50 {
+	flex-basis:50%;
+}
+
+.help_p20_40 {
+	padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.help_video {
+	border-radius: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 40px 0px rgb(224 227 235);
+}
+
+.help_flex_right div {
+    width: 100%; 
+    text-align: center;
+}
+
+.help_flex_right {	
+    position: sticky;
+	top:0;
+	align-self: flex-start;
+}
+
+.help_overflow_unset {
+	overflow: unset;
+}
+
+.img_bxsh {
+    box-shadow: 0px 0px 40px 0px rgb(224 227 235);
+}
+
+@media screen and (max-width:768px) {
+	.help_flex_50 {
+		flex-basis: 100%;
+	}	
+	
+	.help_p20_40 {
+		padding: 20px 0;
+	}
+	
+	.help_titles_group > div {
+		margin-left: 0;
+	}
+	
+	.help_flex_right {
+		order:-1;
+	}
+}

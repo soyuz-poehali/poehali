@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+}
+
+body {
+	margin			:0px;
+	font-family		:arial;
+	color			:#434546;
+}
+
+h1 {
+	font-size		:32px;
+	font-weight		:normal;
+	margin			:0px 0px 20px 0px;
+}
+
+h2 {
+	font-size		:18px;
+	font-weight		:normal;	
+	margin			:0px 0px 20px 0px;
+}
+
+hr {
+	margin 			:10px 0px 35px 0px;
+}
+
+.container {
+	margin			:20px 50px;
+}
+
+.header_ico {
+	float			:left;
+    margin			:0px 20px 10px 20px;
+    width			:30px;
+    padding			:10px;
+    text-align		:center;
+    font-size		:30px !important;
+    border			:solid 1px #787A7B;
+    color			:#E1E8EA;
+	background-color:#434546;
+}
+
+.block {
+	display			:inline-block;
+	margin-bottom	:30px;
+}

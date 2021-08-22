@@ -1,0 +1,114 @@
+.block_contacts_container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.block_contacts_container h3{
+	margin: 0px;
+	font-size: 36px;
+}
+
+.block_contacts_left_container, .block_contacts_right_container {
+	flex-grow: 1;
+	flex-basis: 300px;
+	position: relative;
+	overflow: hidden;
+}
+
+.block_contacts_left_container a{
+	text-decoration: none;
+}
+
+.block_contacts_container input {
+	margin-right: 10px;
+}
+
+.block_contacts_container textarea {
+	min-width: 420px;
+    height: 100px;
+}
+
+.block_contacts_left_fields {
+    display: flex;
+    align-items: center;
+}
+
+.block_contacts_svg {
+    margin: 4px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    background: #eee;
+    border-radius: 10px;
+}
+
+.block_contacts_ico {
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.block_contacts_submit {
+	width: 205px;
+	color: #fff;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 7px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid #dddddd;
+}
+
+.block_contacts_mapyandex {
+	height: 400px;
+	margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    .block_contacts_container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .block_contacts_ico + div {
+        max-width: 230px;
+        overflow: hidden;
+        word-break: break-all;
+    }
+    
+    .block_contacts_mapyandex > ymaps, .block_contacts_mapyandex > ymaps > ymaps {
+        max-width:100% !important; 
+    }
+    
+    .block_contacts_container h3 {
+        font-size: 24px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {		
+    .block_contacts_mapyandex > ymaps, .block_contacts_mapyandex > ymaps > ymaps {
+      max-width:100% !important; 
+    }	
+}
+
+@media screen and (max-width: 640px) {
+    .block_contacts_container textarea {
+        min-width: unset;
+    }
+}
+
+.block_contacts_personal_information {
+    font-size:12px;
+}
+
+.block_contacts_personal_information a {
+    text-decoration: none !important;
+    color: inherit;
+    font-weight: 600;
+}
+}

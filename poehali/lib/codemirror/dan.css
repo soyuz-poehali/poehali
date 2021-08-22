@@ -1,0 +1,31 @@
+.cm-s-dan.CodeMirror { background: #2c2c2c; color: #ffffec; }
+.cm-s-dan div.CodeMirror-selected { background: #716C62; }
+.cm-s-dan .CodeMirror-line::selection, .cm-s-dan .CodeMirror-line > span::selection, .cm-s-dan .CodeMirror-line > span > span::selection { background: rgba(113, 108, 98, .99); }
+.cm-s-dan .CodeMirror-line::-moz-selection, .cm-s-dan .CodeMirror-line > span::-moz-selection, .cm-s-dan .CodeMirror-line > span > span::-moz-selection { background: rgba(113, 108, 98, .99); }
+.cm-s-dan .CodeMirror-gutters { background: #4e4e4e; border-right: 0px; }
+.cm-s-dan .CodeMirror-guttermarker { color: white; }
+.cm-s-dan .CodeMirror-guttermarker-subtle { color: grey; }
+.cm-s-dan .CodeMirror-linenumber { color: #dadada; }
+.cm-s-dan .CodeMirror-cursor { border-left: 1px solid #ffffec; }
+
+.cm-s-dan span.cm-comment { color: #95958a; }
+.cm-s-dan span.cm-atom { color: #ae7ebe; }
+.cm-s-dan span.cm-number { color: #00a8c6; }
+
+.cm-s-dan span.cm-property, .cm-s-dan span.cm-attribute { color: #49c4ef; }
+.cm-s-dan span.cm-keyword { color: #ffb928; }
+.cm-s-dan span.cm-string { color: #ffcf6c; }
+.cm-s-dan span.cm-string.cm-property { color: #ffffec; }
+
+.cm-s-dan span.cm-variable { color: #ffffec; }
+.cm-s-dan span.cm-variable-2 { color: #00a8c6; }
+.cm-s-dan span.cm-def { color: #ffffec; }
+.cm-s-dan span.cm-bracket { color: #fffffc; font-weight: bold; }
+.cm-s-dan span.cm-tag { color: #ffbe00; }
+.cm-s-dan span.cm-link { color: #f54b07; }
+.cm-s-dan span.cm-error { border-bottom: #636363; color: #ffffec; }
+.cm-s-dan span.cm-qualifier { color: #99dd2b; }
+
+.cm-s-dan .CodeMirror-activeline-background { background: #494b41; }
+.cm-s-dan .CodeMirror-matchingbracket { color: #ffb928 !important; }
+.cm-s-dan .CodeMirror-matchingtag { background: rgba(255, 255, 255, .37); }

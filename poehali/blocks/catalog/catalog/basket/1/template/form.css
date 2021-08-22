@@ -1,0 +1,70 @@
+.block_catalog_basket_1_form {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 10px;
+}
+
+.block_catalog_basket_1_title {
+    margin-bottom: 20px;
+}
+
+.block_catalog_basket_1_button {
+    cursor: pointer;
+    display: inline-block;
+    max-width: 200px;
+    padding: 15px 30px;
+    margin: 20px 5px;
+    text-decoration: none !important;
+    font-size: 18px;
+    border-radius: 30px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid var(--color-active);
+    background: var(--color-active);
+    transition: transform 0.3s;
+    font-weight: 600;
+}
+
+.block_catalog_basket_1_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-content: center;
+    align-items: center;
+}
+
+.block_catalog_basket_1_text {
+    width: 200px;
+    margin: 0 5px;
+}
+
+.block_catalog_basket_1_input {
+    margin: 0 5px;
+}
+
+.block_catalog_basket_1_input_wrap input {
+    width: 300px;
+}
+
+.block_catalog_basket_1_input_wrap textarea {
+    width: 300px;
+}
+
+.block_catalog_basket_1_personal_information_wrap {
+    flex-basis: 100%;
+    font-size: 12px;
+    color: #777;
+}
+
+.block_catalog_basket_1_personal_information_wrap input {
+    max-width: 30px;
+    min-width: unset;
+}
+
+.block_catalog_basket_1_personal_information_wrap a {
+    text-decoration:none !important;
+    color: inherit;
+    font-weight:600;
+}

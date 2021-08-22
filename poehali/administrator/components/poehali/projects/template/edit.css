@@ -1,0 +1,97 @@
+.tc_l_text {
+    display: flex;
+    margin-right: 10px;
+    padding-top: 5px;
+    text-align: right;
+    justify-content: flex-end;
+    flex-basis: 200px;
+    min-height: 50px;
+}
+
+.tc_r .w_400 {
+	margin-left:10px;
+}
+
+#poehali_project_mapsyandex_status {
+	display: none;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+	background-color: #ffff00;
+}
+
+#poehali_project_mapsyandex_set {
+	margin-top: 20px;
+}
+
+#poehali_project_mapsyandex {
+	width: 100%;
+	height: 500px;
+}
+
+#poehali_project_mapsyandex_coordinates {
+	background-color: #e7e7e7;
+}
+
+/* --- BOOKMARK --- */
+.dan_bookmark_body {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+/* --- DRAG N DROP --- */
+#drag_trg {
+	position: relative;
+}
+
+.drag_drop_ico {
+	margin: 5px;
+}
+
+.accordion_container {
+	margin-top: 10px;
+}
+
+.dan_accordion_container {
+	flex-grow: 1;
+}
+
+.dan_accordion_head_title {
+	padding-left: 15px;
+}
+
+.dan_accordion_content {
+	padding: 15px;
+}
+
+
+.com_poehali_blogers_themes {
+	height: 200px !important;
+}
+
+
+/* --- BLOGERS AJAX --- */
+#dan_modal_white {
+	background-color: #e7e7e7;
+}
+
+.poehali_blogers_list_wrap {
+	margin: 5px;
+	flex-basis: 100px;
+	padding: 5px;
+	border: solid 1px #ccc;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.poehali_blogers_list_wrap img {
+	display: block;
+	width: 100%;
+}
+
+.poehali_blogers_list_fio {
+	padding-top: 5px;
+	text-align: center;
+	font-size: 12px;
+}

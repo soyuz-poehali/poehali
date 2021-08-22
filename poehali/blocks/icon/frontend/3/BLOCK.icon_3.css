@@ -1,0 +1,16 @@
+.block_icon_item_3 .block_icon_item_svg_wrap {
+	padding:0px 20px 0px 0px;
+}
+
+.block_icon_item_3 {
+	display: flex;
+	flex-basis: 250px;
+	flex-grow: 1;
+    width: 100%;
+    overflow: hidden;
+	transition: 0.3s;
+}
+
+.block_icon_item_title {
+	font-weight: 700;
+}

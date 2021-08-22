@@ -1,0 +1,81 @@
+.block_form_1_container {
+
+}
+
+.block_form_1_text {
+	padding: 0px 10px 20px 10px;
+    text-align: center;
+}
+
+.block_form_1_wrap {
+	    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+.block_form_1_wrap form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+	text-align: center;
+}
+
+.block_form_1_wrap input, .block_form_1_wrap textarea {
+    width: 100%;
+    max-width: 240px;
+    min-width: 180px;
+}
+
+.block_form_1_wrap_checkbox {
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_form_1_personal_information input {
+    max-width: 30px;
+    min-width: unset;
+}
+
+.block_form_1_personal_information a {
+    text-decoration:none !important;
+    color: inherit;
+    font-weight:600;
+}
+
+.block_form_1_wrap label {
+    margin: 5px 10px;
+}
+
+.block_form_1_wrap_submit {
+	text-align: center;
+    width: 100%;
+}
+
+.block_form_1_wrap_checkbox {
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_form_1_wrap label {
+    margin: 5px 10px;
+}
+
+
+input.block_form_checkbox_1 {
+	cursor:pointer;
+	height: 30px;
+	width: 30px!important;
+	max-width: 60px !important;
+	min-width: auto!important;
+	margin: 0;
+}
+
+.block_form_1_personal_information {
+    flex-basis: 100%;
+    font-size: 12px;
+    color: #777;
+}

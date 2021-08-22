@@ -1,0 +1,18 @@
+.block {
+	overflow: hidden;
+}
+
+.block > div {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.block p {
+	margin: 0;
+}
+
+.block_youtube_wrap {
+    max-width: 720px;
+    /* min-width: 300px; */
+    margin: auto;
+}

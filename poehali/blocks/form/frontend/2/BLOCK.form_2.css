@@ -1,0 +1,115 @@
+.block_form_2_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block_form_2_text {
+    flex-basis: 300px;
+    flex-grow: 1;
+	padding: 0px 20px;
+    text-align: center;
+}
+
+.block_form_2_wrap {
+    display: flex;
+    flex-basis: 300px;
+    flex-grow: 1;
+    justify-content: flex-start;
+	margin-bottom: 5px;
+	padding:0px 20px;
+}
+
+.block_form_2_wrap form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    width: 100%;
+	text-align: center;
+}
+
+
+.block_form_2_item_wrap {
+    display: flex;
+    flex-basis: 250px;
+    flex-grow: 1;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+
+.block_form_2_wrap input, .block_form_2_wrap_checkbox {
+    margin: 5px 10px 5px 0px;
+    width: 100%;
+    max-width: 300px;
+    min-width: 180px;
+}
+
+.block_form_2_wrap_checkbox {
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_form_2_wrap label {
+    margin: 5px 10px 5px 0px;
+}
+
+.block_form_2_checkbox_text {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+.block_form_2_item_wrap_textarea {
+	width: 100%;
+    padding-right: 10px;
+}
+
+.block_form_2_item_textarea {
+    width: 100% !important;
+    height: 100px !important;
+}
+
+.block_form_2_wrap_submit {
+	text-align: center;
+    width: 100%;
+}
+
+.block_form_1_wrap_checkbox {
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_form_1_wrap label {
+    margin: 5px 10px;
+}
+
+
+input.block_form_checkbox_1 {
+	cursor:pointer;
+	height: 30px;
+	width: 30px!important;
+	max-width: 60px !important;
+	min-width: auto!important;
+	margin: 0;
+}
+
+.block_form_2_personal_information {
+    flex-basis: 100%;
+    font-size: 12px;
+    color: #777;
+}
+
+.block_form_2_personal_information_checkbox {
+	width: 20px !important;
+    min-width: 20px !important;
+}
+
+.block_form_2_personal_information a {
+    text-decoration: none !important;
+    color: inherit;
+    font-weight: 600;
+}

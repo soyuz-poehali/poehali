@@ -1,0 +1,5 @@
+.block_case_container{
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 400px;
+}

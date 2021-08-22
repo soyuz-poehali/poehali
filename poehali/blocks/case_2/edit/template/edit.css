@@ -1,0 +1,59 @@
+.block_case_2_container {
+	position: relative;
+}
+
+.e_block_case_2_modal_container {
+	position: relative;
+	flex-basis: 300px;
+	margin-bottom: 10px;
+	padding: 10px;
+	text-align: center;
+	border: solid 1px #cccccc;
+	background-color: #fff;
+}
+
+.e_block_case_2_modal_buttons_container {
+	margin-top: 20px;
+}
+
+.e_block_case_2_modal_images, .e_block_case_2_modal_icons {
+	margin: 5px;
+	padding: 5px;
+	border: solid 1px #cccccc;
+	background-color: #f5f5f5;
+}
+
+.e_block_case_2_modal_images img {
+	width: 80px;
+}
+
+.e_block_case_2_modal_svg {
+    width: 15px !important;
+    height: 12px !important;
+    cursor: pointer;
+    fill: #999;
+}
+
+.e_block_case_2_modal_text {
+    padding: 5px 0px 10px 0px;
+	text-align: center;
+}
+
+.e_block_case_2_modal_icon svg {
+	display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+}
+
+.e_block_case_2_modal_add {
+	display: inline-block;
+	margin-bottom: 5px;
+	padding: 3px 10px;
+	font-weight: 600;
+	color: #fff;
+    border: solid 1px #f4ab00;
+    border-radius: 20px;
+    background-color: #ffb100;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.flex_grow_2 {
+	flex-basis: 320px;
+	flex-grow: 1;
+	box-sizing: border-box;
+}
+
+.block_image_2_text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

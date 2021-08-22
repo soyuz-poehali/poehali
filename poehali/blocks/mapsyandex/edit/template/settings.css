@@ -1,0 +1,25 @@
+.input_mapsyandex_points{
+	display: none;
+}
+
+.input_mapsyandex_points + label {	
+	display: inline-block;
+	padding: 5px;
+	border:2px solid transparent;
+	cursor:pointer;
+}
+
+.input_mapsyandex_points:checked + label {
+	border:2px solid #2196f3;
+	border-radius:5px;
+}
+
+.input_mapsyandex_points + label img {
+	display:block;
+}
+
+@media screen and (max-width: 420px) {
+	.input_mapsyandex_points + label img {
+		height: 28px;
+	}
+}

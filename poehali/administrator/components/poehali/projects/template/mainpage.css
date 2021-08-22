@@ -1,0 +1,19 @@
+.poehali_blogers_photo {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: 1px;
+}
+
+.unpub .poehali_blogers_photo {
+	opacity: 0.2;
+}
+
+.bloger_sn {
+	width: 20px;
+	height: 20px;
+}
+
+.admin_table tr.active {
+	background-color: #ccffdd;
+}

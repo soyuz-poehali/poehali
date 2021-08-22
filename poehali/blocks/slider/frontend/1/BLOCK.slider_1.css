@@ -1,0 +1,140 @@
+.block_slide_1 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #ccc;
+}
+
+.block_slide_1:first-child {
+	z-index: 1;
+}
+
+.block_slide_1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.block_slide_1_dots_container {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.block_slide_1_dot, .block_slide_1_dot_active {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+	border-radius: 50%;
+	background-color: RGBA(0, 0, 0, 0.62);
+	cursor: pointer;
+}
+
+.block_slide_1_dot_active {
+	background-color: RGBA(255, 0, 0, 0.62);
+}
+
+.block_slide_1_container {
+	position: relative;
+	overflow: hidden;
+}
+
+.block_slide_1_text {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: -80px;
+	width: 100%;
+	overflow: hidden;
+	color: #fff;
+	height: 20%;
+	max-height: 80px;
+	min-height: 20px;
+	text-align: center;
+	font-size: 2vw;
+	background-color: RGBA(0, 0, 0, 0.62);
+}
+
+
+/* --- Эффекты --- */
+.block_slide_1_effect_opacity {
+	animation-name: block_slide_1_effect_opacity;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+.block_slide_1_effect_top {
+	animation-name: block_slide_1_effect_top;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+.block_slide_1_effect_left {
+	animation-name: block_slide_1_effect_left;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+.block_slide_1_effect_bottom {
+	animation-name: block_slide_1_effect_bottom;
+	animation-duration: 1s;
+	animation-timing-function:ease;
+	animation-fill-mode:forwards;
+}
+
+.block_slide_1_text {
+	animation-name: block_slide_1_text_effect_bottom;
+    animation-delay: 1s;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+@keyframes block_slide_1_effect_opacity {
+    0% {
+		opacity: 0;
+	}
+    100% {
+		opacity: 1;
+	}
+}
+
+@keyframes block_slide_1_effect_top {
+    0% {
+		top: -100%;
+	}
+    100% {
+		top: 0;
+	}
+}
+
+@keyframes block_slide_1_effect_left {
+    0% {
+		left: -100%;
+	}
+    100% {
+		left: 0;
+	}
+}
+
+@keyframes block_slide_1_effect_bottom {
+    0% {
+		bottom: -100%;
+	}
+    100% {
+		bottom: 0;
+	}
+}
+
+@keyframes block_slide_1_text_effect_bottom {
+    0% {
+		bottom: -50px;
+	}
+    100% {
+		bottom: 0px;
+	}
+}

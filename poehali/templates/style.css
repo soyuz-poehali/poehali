@@ -1,0 +1,51 @@
+/* --- VARS --- */
+body {
+    --title-color: #222;
+    --title-size: 36px;
+    --color-1: rgb(115, 181, 94);
+    --color-2: rgb(241, 248, 239);
+    --color-3: rgb(255, 0, 0);
+    --font-color: #222;
+    --color-active: rgb(0, 92, 151);
+}
+/* --- /vars --- */
+
+html, body {
+	height: 100vh;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	color: #222;
+}
+
+td {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+h1, .title {
+	margin: 0px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+/* --- MENU --- */
+.block_menu { 
+	position: sticky; 
+	top: 0; 
+} 
+
+.block_menu_wrap { 
+	max-width: 1440px; 
+	padding: 20px 0px; 
+} 
+
+.block_menu_top_wrap {
+	--menu-top-color: #444444;
+	--menu-top-color-active: #73b55e;
+}
+/* --- /menu --- */

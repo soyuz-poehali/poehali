@@ -1,0 +1,266 @@
+html, body {
+  height: 100%;
+}
+
+body {
+	margin			:0px;
+	font-family		:arial;
+	color			:#434546;
+}
+
+h1 {
+	font-size		:24px;
+	margin			:0px 0px 20px 0px;
+}
+
+h1 {
+	font-size		:20px;
+	margin			:0px 0px 20px 0px;
+}
+
+.header {
+	display			:flex;
+	align-items		:center;
+	flex-wrap		:wrap;
+	min-height		:70px;
+	color			:#E1E8EA;
+	background-color:#434546;
+}
+
+.header_title {
+    display			:inline-block;
+	float			:left;
+    margin			:10px 30px;
+	font-size		:20px;
+}
+
+.header_text {
+    display			:inline-block;
+	float			:left;
+    margin			:10px 10px 10px 30px;
+	font-size		:14px;
+}
+
+.header_ico {
+    margin			:5px;
+	width			:30px;
+	height 			:30px;
+    padding			:10px;
+    text-align		:center;
+	border			:solid 1px #787A7B;
+	cursor			:pointer;
+	fill			:#E1E8EA;
+}
+
+.header_ico:hover, .active {
+	fill			:#434546 !important;
+	background-color:#E1E8EA !important;
+}
+
+.content {
+	display			:flex;
+	flex-wrap		:wrap;
+	align-items		:stretch;
+	min-height		:calc(100% - 70px);
+	font-size		:13px;
+	background-color:#EFEFEF;
+}
+
+.left {
+	flex-basis		:290px;
+	border-right	:solid 10px #434546;
+	padding			:15px 5px 5px 15px;
+	background-color:#fff;
+}
+
+.center {
+	flex-basis		:300px;
+	flex-grow		:1;
+}
+
+.path {
+	padding			:10px 5px 10px 15px;
+}
+
+.path span{
+	margin-right	:10px;
+}
+
+.path a{
+	margin			:0px 5px;
+	color			:#434546;
+}
+
+.fa-arrow-up {
+	color			:#00DC4E !important;
+}
+
+.center_container {
+	padding			:15px 5px 5px 15px;
+}
+
+/* --- ИКОНКИ --- */
+.ico_container, .ico_container_up {
+    margin			:5px;
+    padding			:10px;
+    display			:block;
+    float			:left;
+    height			:180px;
+    width			:100px;
+    border-style	:solid;
+    border-width	:1px;
+    border-color	:#dddddd;
+    color			:#777777;
+    text-decoration	:none;
+    background-color:#ffffff;
+}
+
+.ico_container:hover, .ico_container_up:hover {
+	border-color	:#73DCFF;
+    color			:#000000;
+    background-color:#BFEFFF
+}
+
+.ico_i {
+	height			:100px;
+    width			:100px;
+    text-align		:center;
+}
+
+.ico_big_folder {
+	margin-top		:15px;
+    width			:70px;
+    height 			:70px;
+	fill			:#FFD83C;
+}
+
+.ico_big_up {
+	margin-top		:15px;
+    width			:70px;
+    height 			:70px;
+	fill			:#00ce00;
+}
+
+.ico_big_file {
+	margin-top		:15px;
+    width			:70px;
+    height 			:70px;
+    fill 			:#c1c3c4;
+}
+
+.ico_img {
+    max-width		:100px;
+    max-height		:100%;
+}
+
+.ico_big_text {
+	margin-top		:5px;
+    display			:block;
+    text-align		:center;
+    overflow		:hidden;
+    white-space		:nowrap;
+    text-overflow	:ellipsis;	
+}
+
+.ico_files_char {
+	margin 			:5px 0px 10px 0px;
+    display 		:block;
+    text-align 		:center;
+    font-size 		:10px;
+}
+
+.ico_a_folder {
+	font-weight		:bold;
+	color			:#09F;
+}
+
+.ico_a_file {
+	line-height		:20px;
+	color			:#09F;
+}
+
+.path_home {
+	width 			:16px;
+	height 			:16px;
+}
+
+.path_s {
+	width 			:8px;
+	height 			:8px;
+}
+.tree_container {
+	display			:flex;
+	align-items		:center;
+}
+
+.tree_a_text {
+	margin-left		:5px;
+	color			:#000;
+	font-weight 	:normal;
+	text-decoration :none;
+}
+
+.tree_ico {
+	width			:20px;
+	height 			:20px;
+	fill			:#FFD83C;
+}
+
+.level_1 {
+	margin-left		:20px;
+}
+
+.level_2 {
+	margin-left		:40px;
+}
+
+.level_3 {
+	margin-left		:60px;
+}
+
+.level_4 {
+	margin-left		:80px;
+}
+
+.level_5 {
+	margin-left		:100px;
+}
+
+.level_6 {
+	margin-left		:120px;
+}
+
+.level_7 {
+	margin-left		:140px;
+}
+
+#modal_form:valid .dan_2_modal_submit {
+	background-color:#FDFF7B;
+	transition		:0.5s;
+}
+
+#dan_2_modal_white {
+	background-color:#f4f4f4;
+	text-align		:center;
+}
+
+#dan_2_modal_white .input {
+	width			:100%;
+    max-width		:300px;
+}
+
+.dan_2_modal_submit {
+    margin-top		:20px;
+    height			:50px;
+    line-height		:50px;
+    background-color:#e4e4e4;
+    cursor			:pointer;
+}
+
+.dan_2_modal_button {
+    margin-top		:20px;
+    height			:50px;
+    line-height		:50px;
+	background-color:#FDFF7B;
+    cursor			:pointer;	
+}

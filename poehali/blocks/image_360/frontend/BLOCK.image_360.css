@@ -1,0 +1,16 @@
+.block_image_360_3d, .block_image_360_text {
+	flex-basis: 320px;
+	flex-grow: 1;
+}
+
+.block_image_360_nav_images {
+	height: 80px;
+    margin: 5px;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    cursor: pointer;
+}
+
+.block_image_360_nav_images:hover, .block_image_360_nav_images.active {
+	box-shadow: 1px 1px 5px #ccc;
+}
