@@ -41,7 +41,6 @@ function f_input($name){
 	return trim(htmlspecialchars(strip_tags($post_data)));
 }
 
-
 header ('location: /admin/com/poehali/blogers/');	
 exit;		
 ?>

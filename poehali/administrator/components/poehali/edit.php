@@ -24,7 +24,7 @@ $breadcrumbs_arr = array(
 	'/admin/com/poehali/projects' => 'Проекты',
 	'' => 'Проект '
 );
-echo '11111111111111111111111111111111111111111111111';
+
 $image_html = '';
 if ($SITE->url_arr[4] == 'add') {
 	$id = 0;

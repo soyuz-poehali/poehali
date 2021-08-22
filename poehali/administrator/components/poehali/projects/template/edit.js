@@ -91,7 +91,6 @@ ADMIN.poehali.projects = {
 	}
 }
 
-
 ADMIN.poehali.mapsyandex = {
 	map: [],
 	id: false,  

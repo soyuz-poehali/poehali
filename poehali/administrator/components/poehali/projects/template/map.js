@@ -1,13 +1,3 @@
-/*
-window.addEventListener('DOMContentLoaded', function(){
-	let id = 'poehali_project_mapsyandex'
-	let coordinate = [53.271893, 50.237382]
-	let zoom = 8.47
-	// let points_arr = []
-	ADMIN.poehali.mapsyandex.run(id, coordinate, zoom, points_arr, mark_type='islands#redBlue')
-});
-*/
-
 if (typeof ADMIN == 'undefined') {
 	ADMIN = {}
 }

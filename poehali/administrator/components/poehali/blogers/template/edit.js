@@ -15,7 +15,6 @@ window.addEventListener('DOMContentLoaded', function(){
 	// ADMIN.poehali.item.init()
 });
 
-
 ADMIN.poehali.blogers = {
 	image_files: false,
 

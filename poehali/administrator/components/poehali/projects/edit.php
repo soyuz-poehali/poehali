@@ -1,6 +1,5 @@
 <?php
 defined('AUTH') or die('Restricted access');
-
 $SITE->setHeadFile('/administrator/templates/css/templates.css');
 $SITE->setHeadFile('/lib/DRAG_DROP/DRAG_DROP.css');
 $SITE->setHeadFile('/lib/DRAG_DROP/DRAG_DROP.js');

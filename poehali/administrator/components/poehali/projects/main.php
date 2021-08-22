@@ -1,6 +1,5 @@
 <?php
 defined('AUTH') or die('Restricted access');
-
 switch ($SITE->url_arr[4]) {
 	case '':
 		include $_SERVER['DOCUMENT_ROOT'].'/administrator/components/poehali/projects/mainpage.php';

@@ -1,6 +1,5 @@
 <?php
 defined('AUTH') or die('Restricted access');
-
 class AdminPoehali
 {
 	public $themes_arr = array(

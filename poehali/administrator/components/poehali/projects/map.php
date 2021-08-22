@@ -1,6 +1,5 @@
 <?php
 defined('AUTH') or die('Restricted access');
-
 include_once $_SERVER['DOCUMENT_ROOT'].'/administrator/components/poehali/classes/AdminPoehali.php';
 include $_SERVER['DOCUMENT_ROOT'].'/administrator/breadcrumbs.php';
 $SITE->setHeadFile('/administrator/components/poehali/projects/template/map.css');

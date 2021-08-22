@@ -17,5 +17,4 @@ if (in_array($SITE->url_arr[2], $com_arr)) {
 			exit;
 	}
 }
-
 ?>
